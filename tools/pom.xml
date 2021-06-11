@@ -8,7 +8,7 @@
     <parent>
         <groupId>com.github.muff1nman.chameleon</groupId>
         <artifactId>chameleon-parent</artifactId>
-        <version>1.2.1-RELEASE</version>
+        <version>2.0.0-RELEASE</version>
     </parent>
     <name>chameleon-tools</name>
 
@@ -84,7 +84,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>2.4.3</version>
+                <version>3.2.4</version>
                 <configuration>
                 </configuration>
                 <executions>
