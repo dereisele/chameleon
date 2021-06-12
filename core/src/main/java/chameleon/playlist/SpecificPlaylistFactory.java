@@ -85,7 +85,7 @@ public final class SpecificPlaylistFactory
     private SpecificPlaylistFactory()
     {
         _logger = LogFactory.getLog(getClass()); // May throw LogConfigurationException.
-        _serviceLoader = ServiceLoader.load(SpecificPlaylistProvider.class);
+        _serviceLoader = ServiceLoader.load(SpecificPlaylistProvider.class, SpecificPlaylistProvider.class.getClassLoader());
     }
 
     /**
