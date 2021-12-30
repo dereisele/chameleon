@@ -7,10 +7,10 @@
         <playlist.package>chameleon/playlist/hypetape</playlist.package>
     </properties>
     <parent>
-        <relativePath>../</relativePath>
         <groupId>com.github.muff1nman.chameleon</groupId>
         <artifactId>playlists</artifactId>
-        <version>2.0.0-RELEASE</version>
+        <version>${revision}</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <packaging>jar</packaging>

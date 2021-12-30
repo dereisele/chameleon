@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.muff1nman.chameleon</groupId>
     <artifactId>chameleon-parent</artifactId>
-    <version>2.0.0-RELEASE</version>
+    <version>${revision}</version>
     <name>Chameleon</name>
     <packaging>pom</packaging>
 
@@ -14,6 +14,7 @@
     <inceptionYear>2008</inceptionYear>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <revision>2.1.0-SNAPSHOT</revision>
     </properties>
 
     <licenses>
@@ -69,25 +70,25 @@
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>core</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>contenttype-specificplaylist</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>contenttype-filename</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>contenttype-filetype</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
@@ -99,115 +100,115 @@
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>metadata-sound</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>metadata-image</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>playlist-all</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>playlist-asx</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>playlist-atom</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>playlist-b4s</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>playlist-hypetape</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>playlist-kpl</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>playlist-m3u</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>playlist-mpcpl</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>playlist-pla</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>playlist-plist</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>playlist-plp</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>playlist-pls</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>playlist-rmp</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>playlist-rss</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>playlist-smil</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>playlist-wpl</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.github.muff1nman.chameleon</groupId>
                 <artifactId>playlist-xspf</artifactId>
-                <version>2.0.0-RELEASE</version>
+                <version>${revision}</version>
             </dependency>
 
         </dependencies>
@@ -316,14 +317,14 @@
     </build>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/dereisele/chameleon</url>
         </repository>
+        <snapshotRepository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/dereisele/chameleon</url>
+        </snapshotRepository>
     </distributionManagement>
     <profiles>
         <profile>
