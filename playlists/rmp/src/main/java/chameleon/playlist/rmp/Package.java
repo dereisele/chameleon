@@ -31,18 +31,17 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.Marshaller;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlTransient;
-
 import chameleon.content.Content;
 import chameleon.lang.StringUtils;
 import chameleon.playlist.Media;
 import chameleon.playlist.Playlist;
 import chameleon.playlist.SpecificPlaylist;
 import chameleon.playlist.SpecificPlaylistProvider;
+import jakarta.xml.bind.JAXBContext;
+import jakarta.xml.bind.Marshaller;
+import jakarta.xml.bind.annotation.XmlElement;
+import jakarta.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.XmlTransient;
 
 /**
  * A Real Metadata Package.
