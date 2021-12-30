@@ -24,7 +24,8 @@
  */
 package chameleon.content.type;
 
-import javax.activation.FileTypeMap;
+
+import jakarta.activation.FileTypeMap;
 
 /**
  * A content type provider based on {@link FileTypeMap}.
