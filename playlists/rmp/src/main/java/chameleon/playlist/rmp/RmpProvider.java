@@ -27,10 +27,8 @@ package chameleon.playlist.rmp;
 import java.io.InputStream;
 import java.io.StringReader;
 
-import chameleon.Chameleon;
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.Unmarshaller;
-
+import jakarta.xml.bind.JAXBContext;
+import jakarta.xml.bind.Unmarshaller;
 import org.apache.commons.logging.Log;
 
 import chameleon.content.type.ContentType;
